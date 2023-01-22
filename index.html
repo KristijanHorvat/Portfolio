@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styleHome.css">
+	<link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+</head>
+<body>
+	<nav class="navbar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutme.html">About Me</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="hobies.html">Hobies</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+		</ul>
+	</nav>
+	<section id="home"> 
+		<div class="main">
+			<h1 class="headings"> I am <br> Kristijan Horvat</h1>
+			<a href="#contact">
+			<button class="btn">
+				Hire me
+			</button></a>
+	</section>
+	<section id="contact">
+		<h1 class="headings">CONTACT</h1>
+		<form action="https://formsubmit.co/559ef1e6c5fb12d4b925ea34a4db21e9 " method="POST" class="form">
+			<input type="text" name="Name" class="input" placeholder="Enter Your Name" required>
+			<input type="email" name="Email" class="input" placeholder="Enter Your Email" required>
+			<textarea name="Message" id="msg" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
+			<button type="submit" id="send">Send</button>
+		</form>
+	</section>
+</body>
