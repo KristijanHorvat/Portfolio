@@ -1,2 +1,2 @@
 # Portfolio
-Link:https://kristijanhorvat.github.io/Portfolio/
+Link: https://kristijanhorvat.github.io/Portfolio/
